@@ -11,3 +11,8 @@ function AnotherTestComponent() {
   // ruleid:react-dangerouslysetinnerhtml
   return <div dangerouslySetInnerHTML={createMarkup()} />;
 }
+
+function YetAnotherTestComponent() {
+  // ruleid:react-dangerouslysetinnerhtml
+  return <div dangerouslySetInnerHTML={createMarkup()} />;
+}
